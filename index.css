@@ -1,0 +1,24 @@
+h1 {
+ color: blue;
+}
+
+.add {
+ background-color: darkgreen;
+ color: white;
+}
+
+.subtract {
+ background-color: red;
+}
+
+.add, .subtract {
+ height: 70px;
+ width: 70px;
+}
+
+
+.totals {
+ padding-top: 10px;
+ font-size: 50px;
+}
+

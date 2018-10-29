@@ -1,0 +1,17 @@
+<h1>
+Adding Counter
+</h1>
+
+<section class = "page">
+ <input type= "number" ng-model = "value" 
+      placeholder="Enter number to increase/decrease" />
+</section>
+<section>
+
+<button class="add" ng-click = "sum = sum + (value)" ng-init= "count=0" >Add</button>
+<button class="subtract" ng-click = "sum = sum - (value)" ng-init= "count=0" >Subtract</button>
+
+</section>
+<span class="totals">
+ Sum: {{sum}}
+</span>
